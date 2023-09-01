@@ -49,7 +49,7 @@ namespace IterationStatements
                 numbers.Add(num);
 
                 // This is to show the user that the numbers will start increasing on the console
-                Console.WriteLine($"Increase: {num}");
+                //Console.WriteLine($"Increase: {num}");
 
             }
 
@@ -62,8 +62,7 @@ namespace IterationStatements
             foreach (var n in numbers)
             {
 
-                num--;
-                Console.WriteLine($"Decrease: {num}");
+                Console.WriteLine($"Increase: {n}");
 
             }
 
@@ -79,7 +78,7 @@ namespace IterationStatements
             {
 
                 // place numbers[i] inside of the Console.WriteLine() method
-                Console.WriteLine($"{numbers[i]}");
+                Console.WriteLine($"Decrease:{numbers[i]}");
                 
             }
 
